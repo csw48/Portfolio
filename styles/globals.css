@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* Body and other global styles */
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Project Cards Styling */
+.bg-white {
+  background-color: #ffffff;
+}
+
+.shadow-lg {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+.rounded-lg {
+  border-radius: 0.5rem;
+}
+
+.text-gray-600 {
+  color: #4b5563;
+}
+
+.card-glow {
+    transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
+  }
+  
+.card-glow:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2), 0 0 20px rgba(128, 128, 128, 0.5); /* Gray glow */
+  transform: scale(1.05);
+}
